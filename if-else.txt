@@ -1,5 +1,5 @@
 package com.trening;
-//IF-ELSE + проверка условия (или)
+//IF-ELSE + proverka usloviya
 public class Zadanie1 {
     public static void main(String[] args) {
 
