@@ -1,0 +1,17 @@
+package com.trening;
+//IF-ELSE + проверка условия (или)
+public class Zadanie1 {
+    public static void main(String[] args) {
+
+
+        int age = 17;
+        double money = 400.00;
+        if (age >= 18 | money > 500.00) {
+            System.out.println("Welcom");
+        }
+        else{
+                System.out.println("OUT");
+            }
+        }
+    }
+
