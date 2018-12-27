@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class RunCalc {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a");
+        int a = sc.nextInt();
+
+        System.out.println("Enter b");
+        int b = sc.nextInt();
+
+        System.out.println("1: Adition");
+        System.out.println("2: Subtraction");
+        System.out.println("3: Multiply");
+        System.out.println("4: Division");
+
+        int operation = sc.nextInt();
+        int result=0;
+
+        switch (operation) {
+            case 1:
+                result=calc.add(a,b);
+                break;
+            case 2:
+                result=calc.minus(a,b);
+                break;
+            case 3:
+                result=calc.mult(a,b);
+                break;
+            case 4:
+                result=calc.div(a,b);
+                break;
+        }
+        System.out.println("The result is: " + result);
+            }
+
+}
