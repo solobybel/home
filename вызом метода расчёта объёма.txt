@@ -1,0 +1,26 @@
+//גûחמג לועמהא הכÿ נאסק¸עא מבת¸לא
+class BoxDemo {
+    public static void main(String[] args) {
+        Box mybox=new Box();
+
+        mybox.w=10;
+        mybox.h=20;
+        mybox.d=30;
+
+     double vol=mybox.volume();
+
+        System.out.println("־בת¸ל = "+vol);
+
+
+    }
+
+}
+
+
+public class Box {
+    double w,h,d;
+    double volume() {
+
+        return w*h*d;
+    }
+}
