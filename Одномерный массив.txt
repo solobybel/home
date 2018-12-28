@@ -1,0 +1,15 @@
+public class Massiv {
+    public static void main(String[] args) {
+        int [] marks=new int [5];
+        marks[0]=5;
+        marks[1]=4;
+        marks[2]=3;
+        marks[3]=2;
+        marks[4]=1;
+        System.out.println("јдрес €чейки массива: "+ marks);
+
+        for (int i=0;i<5; i++){
+            System.out.println("ќценка номер "+i+":"+marks[i]);
+        }
+    }
+}
